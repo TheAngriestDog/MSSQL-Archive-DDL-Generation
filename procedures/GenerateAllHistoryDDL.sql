@@ -27,5 +27,5 @@ BEGIN
 			SET @DDL = @DDL + 'GO' + CHAR(10);
 	END;
 
-	PRINT @DDL
+	EXEC BigPrint @DDL
 END;
